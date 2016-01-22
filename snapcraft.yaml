@@ -27,16 +27,7 @@ parts:
         plugin: cmake
         source: 96boardsctl
         stage-packages: ['libftdi-dev', 'libusb-dev']
-        filesets:
-            dev:
-                - usr/include
-                - usr/lib/x86_64-linux-gnu/*.a
-                - usr/share/lintian
-                - usr/lib/x86_64-linux-gnu/pkgconfig
-            doc:
-                - usr/share/doc
-                - usr/share/doc-base
-                - usr/share/man
         snap:
-            - -$dev
-            - -$doc
+            - bin/96boardsctl
+            - lib/*/libusb*.so*
+            - usr/lib/*/libftdi.so*
