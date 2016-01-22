@@ -1,6 +1,5 @@
 name: 96boardsctl
 version: 1.1.1-1
-vendor: Zygmunt Krynicki <me@zygoon.pl>
 summary: Control the power button and reset lines with a 96boards USB console adaptor
 description: |
     Control utility for the 96board Console adapter
