@@ -19,7 +19,7 @@ description: |
     /etc/udev/rules.d
 icon: icon.png
 apps:
-    96boardstl:
+    96boardsctl:
         command: 96boardsctl
 parts:
     96boardsctl:
